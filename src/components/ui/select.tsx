@@ -19,7 +19,13 @@ export const Select = ({ className }: ISelectProps) => {
 				<span>
 					{activeIndex === null ? "Выберите тип системы" : options[activeIndex]}
 				</span>
-				<Image src={"/arrow.png"} alt="arrow" width={20} height={20} />
+				<Image
+					src={"/arrow.png"}
+					alt="arrow"
+					width={20}
+					height={20}
+					unoptimized
+				/>
 			</div>
 			<div
 				className="options open"

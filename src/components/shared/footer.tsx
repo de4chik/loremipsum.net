@@ -14,7 +14,13 @@ export const Footer = () => {
 				<div className="separator" />
 				<div className="wallets">
 					<Link href={"/"} className="wallet wallet__opacity">
-						<Image alt="qiwi" src={"/qiwi.png"} width={20} height={20} />
+						<Image
+							alt="qiwi"
+							src={"/qiwi.png"}
+							width={20}
+							height={20}
+							unoptimized
+						/>
 						<span className="wallet__dsc">QIWI wallet</span>
 					</Link>
 					<Link href={"/"} className="wallet wallet__opacity">
@@ -23,22 +29,41 @@ export const Footer = () => {
 							src={"/yandexMony.png"}
 							width={20}
 							height={20}
+							unoptimized
 						/>
 						<span className="wallet__dsc">Yandex Money</span>
 					</Link>
 					<Link href={"/"} className="wallet wallet__opacity">
-						<Image alt="web mony" src={"/webMony.png"} width={20} height={20} />
+						<Image
+							alt="web mony"
+							src={"/webMony.png"}
+							width={20}
+							height={20}
+							unoptimized
+						/>
 						<span className="wallet__dsc">Web Money</span>
 					</Link>
 				</div>
 				<div className="separator" />
 				<div className="wallets">
 					<Link href={"mailto:info@ipsum228.com"} className="wallet">
-						<Image alt="mail" src={"/mail.png"} width={20} height={20} />
+						<Image
+							alt="mail"
+							src={"/mail.png"}
+							width={20}
+							height={20}
+							unoptimized
+						/>
 						<span className="wallet__dsc">info@ipsum228.com</span>
 					</Link>
 					<Link href={"/"} className="wallet">
-						<Image alt="vk" src={"/vk.png"} width={20} height={20} />
+						<Image
+							alt="vk"
+							src={"/vk.png"}
+							width={20}
+							height={20}
+							unoptimized
+						/>
 						<span className="wallet__dsc">Мы вконтактеy</span>
 					</Link>
 				</div>

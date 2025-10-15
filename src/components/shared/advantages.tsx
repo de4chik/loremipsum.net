@@ -43,7 +43,7 @@ export const AdventagesItem = ({
 	return (
 		<div className="adventage">
 			<div className="adventage__item">
-				<Image alt="alt" src={iconURL} width={55} height={55} />
+				<Image alt="alt" src={iconURL} width={55} height={55} unoptimized />
 			</div>
 			<span className="adventage__title">{title}</span>
 		</div>

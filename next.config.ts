@@ -4,7 +4,9 @@ const nextConfig: NextConfig = {
 	output: "export",
 	images: {
 		unoptimized: true,
+        
 	},
+	basePath: "/loremipsum.net",
 };
 
 export default nextConfig;
