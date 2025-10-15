@@ -1,0 +1,49 @@
+.header {
+	padding: 33px 0;
+	background-color: var(--color-black-header);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 50;
+
+	&__container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.menu {
+		display: flex;
+		gap: 60px;
+
+		font-weight: 600;
+		font-size: 13px;
+		text-transform: uppercase;
+
+		&__item-link {
+			transition: all;
+			transition-duration: 200ms;
+			&:hover {
+				color: var(--color-blue);
+			}
+		}
+	}
+
+	.logo {
+		font-weight: 800;
+		font-size: 28px;
+		line-height: 100%;
+		vertical-align: middle;
+		text-transform: uppercase;
+		color: white;
+		&__accent {
+			color: var(--color-blue);
+		}
+	}
+		@media screen and (width <= 790) {
+			.logo{
+				font-size: 20px;
+			}
+		}
+}

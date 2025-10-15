@@ -1,0 +1,42 @@
+.burger {
+	width: 20px;
+	height: 2px;
+	border-radius: 50%;
+	background: white;
+	position: relative;
+	margin: 10px;
+	&::after {
+		content: "";
+		width: 20px;
+		height: 2px;
+		border-radius: 50%;
+		background: white;
+		position: absolute;
+		top: -5px;
+	}
+	&::before {
+		content: "";
+		width: 20px;
+		height: 2px;
+		border-radius: 50%;
+		background: white;
+		position: absolute;
+		top: 5px;
+	}
+}
+
+.mobile-sheet {
+	padding: 20px;
+	.sheet-nav {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		height: 100%;
+		justify-content: center;
+
+		.sheet-itme-link {
+			color: black;
+			font-weight: 700;
+		}
+	}
+}

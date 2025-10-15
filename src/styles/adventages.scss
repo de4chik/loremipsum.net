@@ -1,0 +1,40 @@
+.adventages {
+	display: flex;
+	justify-content: center;
+	padding: 0 20px;
+	.adventage {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 20px;
+		color: white;
+		font-size: 16px;
+		width: 209px;
+		text-align: center;
+		position: relative;
+		&__item {
+			width: 100px;
+			height: 100px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			border-radius: 50%;
+			background-color: #3e9cdc;
+			border: 5px solid #286690;
+		}
+		&__title {
+			position: absolute;
+			top: calc(100% + 20px);
+            width: 180px;
+		}
+	}
+}
+@media screen and (max-width: 790) {
+	.adventages {
+		flex-wrap: wrap;
+		gap: 60px;
+		.adventage {
+			width: fit-content;
+		}
+	}
+}

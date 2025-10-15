@@ -1,0 +1,20 @@
+.button {
+	padding: 13px 64px;
+	border: 1px solid;
+	font-size: 13px;
+	text-transform: uppercase;
+	border-radius: 4px;
+    font-family: Lato, Lato Fallback;
+
+    &-white {
+        background-color: white;
+        border-color: #6f6d7b;
+    }
+    
+    &-blue {
+        background-color: var(--color-blue);
+        color: white;
+        border-color: white;
+    }
+}
+
