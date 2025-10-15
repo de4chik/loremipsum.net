@@ -6,7 +6,6 @@ import { useWindowSize } from "@/hooks/useWindowSize";
 export const Advantages = () => {
 	const { width } = useWindowSize();
 
-
 	return (
 		<div className="adventages">
 			<AdventagesItem
@@ -15,19 +14,19 @@ export const Advantages = () => {
 			/>
 			<DotsSeparator width={width} />
 			<AdventagesItem
-				iconURL="/search.png"
+				iconURL="/percent.png"
 				title="Сonsecteturadipiscing elit"
 			/>
 			<DotsSeparator width={width} />
-			<AdventagesItem iconURL="/search.png" title="Sed do eiusmod tempor" />
+			<AdventagesItem iconURL="/file.png" title="Sed do eiusmod tempor" />
 			<DotsSeparator width={width} />
 			<AdventagesItem
-				iconURL="/search.png"
+				iconURL="/message.png"
 				title="Esse cillum dolore eu fugiat"
 			/>
 			<DotsSeparator width={width} />
 			<AdventagesItem
-				iconURL="/search.png"
+				iconURL="/money.png"
 				title="Excepteur sint occaecat cupidatat non proident"
 			/>
 		</div>

@@ -5,9 +5,7 @@ const nextConfig: NextConfig = {
 	images: {
 		unoptimized: true,
 	},
-	basePath: process.env.GITHUB_REPOSITORY
-		? `/${process.env.GITHUB_REPOSITORY.split("/")[1]}`
-		: undefined,
+	basePath: "/loremipsum.net",
 };
 
 export default nextConfig;
